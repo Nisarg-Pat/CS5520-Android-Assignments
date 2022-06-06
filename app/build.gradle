@@ -4,6 +4,14 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        my_key {
+            storeFile file('C:\\Users\\patel\\AndroidStudioProjects\\KeyStore_NP\\keystore_np.jks')
+            storePassword 'Nispamke@3'
+            keyAlias 'first_key'
+            keyPassword 'Nispamke@3'
+        }
+    }
     compileSdk 32
 
     defaultConfig {
@@ -20,6 +28,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.my_key
         }
     }
     compileOptions {

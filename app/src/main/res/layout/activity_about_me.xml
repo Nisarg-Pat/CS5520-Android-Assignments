@@ -6,4 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".AboutMeActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_lg"
+        android:layout_marginTop="@dimen/margin_lg"
+        android:text="@string/about_me_details"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
