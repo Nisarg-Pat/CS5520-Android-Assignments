@@ -5,4 +5,7 @@
     <dimen name="margin_xl">24dp</dimen>
 
     <dimen name="text_size_lg">16sp</dimen>
+
+    <dimen name="clicky_btn_sz">60dp</dimen>
+    <dimen name="clicky_text_sz">32sp</dimen>
 </resources>

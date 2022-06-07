@@ -14,9 +14,15 @@
         android:theme="@style/Theme.NUMAD2022Su_Regular"
         tools:targetApi="31">
         <activity
-            android:name=".AboutMeActivity"
+            android:name=".ClickyClickyActivity"
+            android:exported="false"
             android:parentActivityName=".AboutMeActivity"
-            android:exported="false" />
+            android:label="Clicky Clicky"/>
+        <activity
+            android:name=".AboutMeActivity"
+            android:exported="false"
+            android:parentActivityName=".AboutMeActivity"
+            android:label="About Me"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

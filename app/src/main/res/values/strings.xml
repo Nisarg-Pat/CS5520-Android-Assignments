@@ -2,4 +2,13 @@
     <string name="app_name">NUMAD2022Su_Regular</string>
     <string name="about_me">A1 - About Me</string>
     <string name="about_me_details">Name: Nisarg Patel\nEmail: patel.nisargs@northeastern.edu</string>
+
+    <string name="clicky_A">A</string>
+    <string name="clicky_B">B</string>
+    <string name="clicky_C">C</string>
+    <string name="clicky_D">D</string>
+    <string name="clicky_E">E</string>
+    <string name="clicky_F">F</string>
+    <string name="clicky_pressed">Pressed:</string>
+
 </resources>
