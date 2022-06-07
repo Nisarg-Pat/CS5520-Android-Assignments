@@ -7,5 +7,6 @@
     <dimen name="text_size_lg">16sp</dimen>
 
     <dimen name="clicky_btn_sz">60dp</dimen>
+    <dimen name="clicky_margin_sz">40dp</dimen>
     <dimen name="clicky_text_sz">32sp</dimen>
 </resources>

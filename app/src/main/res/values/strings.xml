@@ -9,6 +9,6 @@
     <string name="clicky_D">D</string>
     <string name="clicky_E">E</string>
     <string name="clicky_F">F</string>
-    <string name="clicky_pressed">Pressed:</string>
+    <string name="clicky_pressed">Pressed: %s</string>
 
 </resources>
